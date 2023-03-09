@@ -1,0 +1,23 @@
+package ejercicio4;
+
+public class Main {
+
+public static void main(String[] args) {
+	Mamifero lobo = new Mamifero("Lobo", "Gris");
+	Ave aguila = new Ave("Águila", "Negro y Blanco");
+	Peces pez=new Peces("Trucha","Dulce");
+	
+	System.out.println("Datos del lobo: ");
+	lobo.mostrarDatos();
+	System.out.println();
+
+
+	System.out.println("Datos del águila: ");
+	    aguila.mostrarDatos();
+	System.out.println();
+	    
+	System.out.println("Datos del Pez:");
+		pez.mostrarDatos();
+}
+
+}
