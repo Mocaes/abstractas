@@ -17,6 +17,9 @@ public String getTipo() {
 public void setTipo(String tipo) {
 	this.tipo = tipo;
 }
-
+@Override
+public String toString() {
+	return " Tipo: " + getTipo() + ", Color: " + getColor()+ ", Tipo de ruedas:" + getRuedas() + ", Modelo: " + getModelo();
+}
 
 }

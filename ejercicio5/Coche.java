@@ -1,6 +1,11 @@
 package ejercicio5;
 
 class Coche extends Vehiculo{
+@Override
+	public String toString() {
+		return " Cilindrada: " + getCilindrada() + ", Color: " + getColor()+ ", Tipo de ruedas:" + getRuedas() + ", Modelo: " + getModelo();
+	}
+
 private int cilindrada;
 @Override
 void acelerar() {
